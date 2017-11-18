@@ -1,6 +1,5 @@
 ##Author: Indranil Ghosh, Jadavpur University, Physics Department
 
-
 import random, pygame, sys
 from pygame.locals import *
 
