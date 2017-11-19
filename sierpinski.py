@@ -29,6 +29,7 @@ while True:
 
     for event in pygame.event.get():
         if event.type==QUIT:
+            pygame.image.save(DISPLAYSURF, 'SierpinskiTriangle.png')
             pygame.quit()
             sys.exit()
     pygame.display.update()
