@@ -32,6 +32,7 @@ while True:
     i+=1
     for event in pygame.event.get():
         if event.type==QUIT:
+            pygame.image.save(DISPLAYSURF, "BarnsleyFern.png")
             pygame.quit()
             sys.exit()
     pygame.display.update()
